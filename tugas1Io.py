@@ -21,7 +21,7 @@ tunjangan_jabatan = 0.2 * gaji_pokok
 gaji_kotor = gaji_pokok + tunjangan_jabatan
 
 # Menghitung zakat ternary
-zakat = (0.025 * gaji_kotor) if (agama.lower() == "islam" and gaji_kotor >= 7000000) else 0
+zakat = (0.025 * gaji_kotor) if (agama == "islam" and gaji_kotor >= 7000000) else 0
 
 # Menghitung gaji bersih
 gaji_bersih = gaji_kotor - zakat
