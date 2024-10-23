@@ -12,7 +12,7 @@ elif jabatan == "kabag":
 elif jabatan == "manager":
     gaji_pokok = 10000000  # 10 juta
 else:
-    gaji_pokok = 0  # Jika jabatan tidak tersedia
+    gaji_pokok = 0  # Jika jabatan tidak terdaftar
 
 # Menghitung tunjangan jabatan
 tunjangan_jabatan = 0.2 * gaji_pokok
@@ -20,7 +20,7 @@ tunjangan_jabatan = 0.2 * gaji_pokok
 # Menghitung gaji kotor
 gaji_kotor = gaji_pokok + tunjangan_jabatan
 
-# Menghitung zakat profesi pake ternary
+# Menghitung zakat
 zakat = (0.025 * gaji_kotor) if (agama == "islam" and gaji_kotor >= 7000000) else 0
 
 # Menghitung gaji bersih
