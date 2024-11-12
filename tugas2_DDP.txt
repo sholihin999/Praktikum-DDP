@@ -1,0 +1,26 @@
+TUGAS2 DDP
+==========
+Buat Dictionary :
+p1 : nama=>Budi, jabatan=> Manager, agama=>Islam, status=>Menikah
+p2 : nama=>Siti, jabatan=> Asisten Manager, agama=>Islam, status=>Menikah
+p3 : nama=>I Gede, jabatan=> Supervisor, agama=>Hindu, status=>Menikah
+p4 : nama=>Joko, jabatan=> Staff, agama=>Islam, status=>Belum Menikah
+p5 : nama=>Alex, jabatan=> Staff, agama=>Kristen Protestan, status=>Belum Menikah
+
+Cetaklah Slip Gaji Pegawai Menggunakan Nested Loop Dengan Data:
+- Nama
+- Jabatan 
+- Agama 
+- Status 
+- Gaji Pokok: (Bobot Penilaian 10 Point)
+  Gunakan kondisional if:
+  (Manager=>15 jt, Asmen=>10 jt, Supervisor=>7 jt, Staff=> 4jt)
+- Tunjangan jabatan => 30% dari gapok 
+- BPJS = 10 % dari gapok 
+- Tunjangan keluarga:
+  Gunakan Tuple & List 
+  10% dari gapok untuk yg sudah menikah
+- Gaji Kotor (Jumlahkan semua element gaji)
+- Zakat Profesi 2,5% 
+  (gunakan tuple list: untuk pegawai muslim dan minimal gaji kotor 7 jt )
+- Gaji Bersih => Gaji Kotor - Zakat Profesi - BPJS
